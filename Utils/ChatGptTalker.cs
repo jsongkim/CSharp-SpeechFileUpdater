@@ -17,7 +17,7 @@ namespace SpeechFileUpdater.Utils
         private static readonly string chatGptUri = @"https://api.openai.com/v1/completions";
         private static JObject jsonTemplate = new JObject()
         {
-            ["model"] = "text-davinci-003",
+            ["model"] = "gpt-3.5-turbo-instruct",
             ["prompt"] = "",
             ["max_tokens"] = 100,
             ["temperature"] = 0.5F,
